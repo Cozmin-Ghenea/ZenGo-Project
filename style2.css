@@ -1,0 +1,651 @@
+/* tot site-ul */
+img{
+    width: 100%;
+}
+body{
+    font-size: 14px;
+    font-family: opensans , sans-serif;
+    font-weight: 400;
+    margin: 0;
+    color: rgb(152, 152, 152);
+    background-color: #FFF;
+}
+#header{
+    background: url('./poze/imagine-fundal.png') no-repeat center;
+    position: relative;
+    z-index: 2;
+    background-size: cover;
+    border: 1px solid black;
+    height: 872px;
+}
+.meniu{
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 13px;
+    top: 0;
+    width: 100%;
+    height: 110px;
+    z-index: 2;
+    position: fixed;
+}
+.zengo {
+    font-size: 34px;
+    font-family: Lobster !important;
+    color: rgb(220, 41, 41);
+    line-height: 0.706;
+    text-align: Left;
+    position: relative;
+    left: 37%;
+    top: 34px;
+    z-index: 360;
+    float: left;
+    opacity: 1;
+ }
+.text {
+    font-size: 12px;
+    font-family: Open Sans;
+    color: rgb(255, 255, 255);
+    line-height: 2;
+    text-align: Left;
+    position: absolute;
+    left: 37%;
+    top: 63px;
+    z-index: 350;
+
+}
+
+.meniu .img{
+   margin-left: 2%;
+    margin-top: 43px;
+    width:auto;
+}
+
+
+.lista1{
+    margin-top: 45px;
+    margin-bottom: 10px;
+    margin-left: 506px;
+}
+ul{
+    list-style-type: none;
+    
+}
+#header a{
+    text-decoration: none;
+    color: #fff !important;
+    
+}
+.lista1 a:hover{
+    color: #933438 !important;
+    text-decoration: none !important;
+}
+li {
+    display: inline;
+    padding: 0 15px;
+}
+.mijloc{
+    width: 50%;
+    height: 150px;
+    margin-top: 25%;
+    margin-right: 25%;
+    z-index: 999999;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-left: 35%
+}
+.text2{
+	margin: 0px 25%;
+	position: relative;
+	color: #fff;
+	font-size: 32px;
+    text-align: center;
+	
+}
+.text3{
+	position: relative;
+	color: #fff;
+	font-size: 18px;
+    text-align: center;
+}
+.zengo1{
+    font-size: 62px;
+    font-family: Lobster !important;
+    color: rgb(220, 41, 41);
+    margin-left: 10px;
+    text-align: center;
+}
+.scroll{
+     background: url("./poze/aaaaa.png") no-repeat;
+    position: relative;
+    height: 100px;
+    padding-bottom: 6px;
+    padding-left: 35px;
+    padding-right: 75px;
+    padding-top: 8px;
+    margin-left: 40%;
+    font-size: 14px;
+}
+.scroll a:hover{
+    text-decoration: none;
+}
+.main{
+	
+	width: 100%;
+	position: relative;
+    align-content: center;
+}
+#hr1{
+  
+    width: 360px;
+    z-index: 2;
+    position: relative;
+    margin-bottom: 65px;
+    color: rgb(46, 57, 71);
+}
+#linie{
+    border: 3px solid #cc3333;
+    width: 70px;
+    margin-bottom: -24px;
+    z-index: 10;
+    position: relative;
+    margin-left: 48%;
+}
+#bg2{
+    margin:0 0;
+}
+#sus{
+    margin-top: 80px;
+    text-align: center;
+    
+}
+.about{
+	font-size: 70px;
+    font-family: Lobster !important;
+    color: #000;
+    
+}
+.us{
+	font-size: 70px;
+    font-family: Lobster !important;
+    color: rgb(220, 41, 41);
+}
+.text4{
+	align-content: center;
+	font-family: opensans !important;
+	font-size: 21px;
+	color: rgb(152, 152, 152);
+	position: relative;
+    padding-bottom: 25px;
+	
+}
+.text5{
+	text-align: center;
+	font-family: opensans light !important;
+	font-size: 25px;
+	color: rgb(152, 152, 152);
+	margin: 0 0 10px;
+    
+}
+.jos{
+    text-align: center;
+    margin-top: 155px;
+    margin-bottom: 170px;
+}
+
+.jos h1{
+    font-family: lobster !important;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.jos h2{
+    font-family: Opensans Light !important;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+.jos a{
+    text-decoration: none;
+    font-family: Opensans Semibold !important;
+    font-size: 12px;
+    color: rgb(220, 41, 41);
+}
+.jos a:hover{
+    text-decoration: none;
+     color: rgb(220, 41, 41);
+}
+#bg3{
+    background-color: rgb(30, 38, 49);
+    height: 725px;
+    
+}
+#sus2{
+    margin-top: 80px;
+    text-align: center;
+}
+.our{
+    font-size: 70px;
+    font-family: Lobster !important;
+    color: #FFF;
+	
+}
+.portofolio{
+    font-size: 70px;
+    font-family: Lobster !important;
+    color: rgb(220, 41, 41);
+}
+.hexagon{
+    position: relative;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-right: 6px;
+}
+.d1 {
+    background-color: #FFF;
+    width: 120px;
+    height: 70px;
+    border-right: 1px solid rgb(229, 229, 229);
+    border-left: 1px solid rgb(229, 229, 229);
+    position: absolute;
+    bottom: 20px;
+    left: 35%;
+}
+ .d2 {
+    background-color: #FFF;
+    color:red;
+    width: 120px;
+    height: 70px;
+    border-right: 1px solid rgb(229, 229, 229);
+    border-left: 1px solid rgb(229, 229, 229);
+    position: absolute;
+    color:red;
+    transform: rotate(60deg);
+    bottom: 20px;
+    left:35%;
+    
+}
+.d3 {
+    background-color: #FFF;
+    width: 120px;
+    height: 70px;
+    border-right: 1px solid rgb(229, 229, 229);
+    border-left: 1px solid rgb(229, 229, 229);
+    position: absolute;
+    color:red;
+    transform: rotate(120deg);
+    bottom: 20px;
+    left:35%;
+}
+.hexagon:hover .d1{
+    background-color: #dc2929;  
+}
+.hexagon:hover .d2{
+    background-color: #dc2929;  
+}
+.hexagon:hover .d3{
+    background-color: #dc2929;  
+}
+    
+.icon {
+    text-align: center;
+}
+.hexagon i {
+    color: #dc2929;
+    position: relative;
+    z-index: 10;
+}
+.hexagon:hover i{
+    color: #FFF;
+}
+.page_img {
+    width: 100%;
+    position: relative;
+}
+
+.image {
+    float: left;
+    width: 25%;
+    position: relative;
+}
+
+.image > img {
+    width: 100%;
+}
+
+.img_info {
+    background-color: rgba(30, 38, 49, 0.9);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: none;
+    padding-top: 150px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.project {
+    font-size: 14px;
+    color: #fff;
+}
+
+.description {
+    font-size: 11px;
+    color: #c6f5ff;
+}
+
+.site {
+    font-size: 10px;
+}
+
+.image:hover > .img_info {
+    display: table-cell;
+}
+#bg3 #hr1{
+    margin-bottom: 70px;
+}
+#bg4{
+    background-color: #FFF;
+    text-align: center;
+    margin-top: 68px;
+}
+.img-stil1{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+#bg4 h3{
+    font-family: opensans !important;
+    font-size: 20px;
+    color: #dc2929
+}
+#bg4 h4{
+     font-family: opensans !important;
+    font-size: 12px;
+    color: rgb(158, 165, 173)
+}
+
+#bg4 .jos3 #hr1{
+    width: 60px;
+    margin-bottom: 30px;
+}
+#bg4 .jos3 #linie{
+    border: 2px solid #dc2929;
+    width: 15px;
+}
+.img-stil img{
+    filter: grayscale( 100%);
+}
+.img-stil img:hover{
+    filter: grayscale( 0%);
+}
+.fb, .gp, .tw{
+    filter: grayscale(100%);
+    opacity: 0.6;
+    padding-right: 2px;
+}
+.fb:hover {
+    filter: grayscale(0%);
+    opacity:1;
+}
+.tw:hover {
+    filter: grayscale(0%);
+    opacity:1;
+}
+.gp:hover {
+    filter: grayscale(0%);
+    opacity:1;
+}
+.desc{
+    background: url('./poze/bg1.jpg') no-repeat center;
+    position: relative;
+    background-size: cover;
+    text-align: center;
+    font-weight: 100;
+    padding-bottom: 110px;
+    padding-top: 2px;
+    margin-top: 40px;
+}
+.desc h1{
+    margin-top: 70px;
+    font-family: opensans Light !important;
+    font-size: 44px;
+    color: #fff;
+    margin-bottom: -5px;
+    font-weight: 100; 
+    
+    
+}
+.desc h4{
+    font-family: opensans Light !important;
+    font-size: 14px;
+    color: #fff;
+}
+.desc1{
+    font-family: opensanlight italic !important;
+    font-size: 18px;
+    color: rgb(221, 218, 223);
+    padding-top: 25px;
+    margin-bottom: 50px;
+}
+#cerc{
+    display: inline;
+    align-content: center;
+}
+#cerc-alb{
+    width: 10px;
+   height: 10px;
+   background: #FFF; 
+   border-radius: 70px;
+   margin-left: 48%;
+}
+#cerc-rosu1{
+    width: 10px;
+   height: 10px;
+   background: rgb(172, 28, 28); 
+   border-radius: 70px;
+   margin-left: 50%;
+   margin-top: -10px;
+}
+#cerc-rosu2{
+    width: 10px;
+   height: 10px;
+   background: rgb(172, 28, 28); 
+   border-radius: 70px;
+   margin-left: 52%;
+   margin-top: -10px;
+}
+#bg5 #sus{
+    text-align: center;
+    padding-top: 30px;
+}
+.jos4{
+    margin: 0 100px;
+}
+.jos4 h1{
+    font-family: opensans !important;
+    font-size: 18px;
+    font-weight: 300;
+    color : rgb(64, 68, 71);
+    text-align: left;
+}
+.jos4 hr{
+    border: 0;
+    border-bottom: 1px dotted rgb(219, 219, 219);
+    border-bottom-width: 1px;
+}
+.jos4 p{
+    color : rgb(112, 118, 122);
+    font-family: opensans !important;
+    font-size: 13px;
+    text-align: left;
+}
+.jos4 a{
+    text-decoration: none;
+    color: #dc2929;
+}
+.jos4 a:hover{
+    text-decoration: none;
+    color: #dc2929;
+}
+.read{
+    height: 35px; 
+    background: #dc2929;
+    width: 135px;
+    border-radius: 6px;
+    color:#fff;
+    font-family: opensans !important;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 10px;
+    filter: grayscale(100%);
+    opacity: 0.3;
+}
+.read:hover{
+    filter:grayscale(0%);
+    opacity: 1;
+}
+
+.data{
+    height: 60px;
+    width: 60px;
+    border: 2px solid #FFF;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+    opacity: 0.5;
+    position: absolute;
+    margin-bottom: 70px;
+    margin-left: 5px;
+    margin-top: 5px;
+    transition: background 1s;
+}
+.data h1{
+    font-size:24px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font-weight: 500;
+    
+}
+.data p{
+    font-family: opensans !important;
+    font-size:16px;
+    color: #fff;
+    text-align: center;
+     font-weight: 500;
+}
+.data:hover{
+    background: rgba(0, 0, 0, 0.8);
+}
+#bg6{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(220, 41, 41);
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+#bg6 h1{
+    font-family: opensans light !important;
+    font-size: 44px;
+    color: #FFF;
+}
+.ask{
+    font-family: Lobster !important;
+    font-size: 44px;
+    color: #FFF;
+}
+#bg6 p{
+    font-family: opensans light !important;
+    font-size: 16px;
+    color: #FFF;
+    
+}
+/*   Inceputul div-ului de jos */
+#footer{
+    width: 100%;
+    height: 500px;
+	background-color: rgb(38, 38, 38);
+    text-align: left;
+    color: rgb(196, 196, 196);
+    padding-top: 47px;
+    z-index:-2;
+    
+}
+.bot h2{
+    font-family: opensans semibold !important;
+    font-size: 16px;
+}
+.linie2{
+    width: 54px;
+    border: 3px solid #dc2929;
+    margin-left: 120px;
+    margin-bottom: -23px;
+    z-index:6;
+    position: absolute;
+    
+}
+.bot hr{
+    position: absolute;
+    width: 82px;
+    z-index:1;
+    margin-left: 116px;
+    margin-top: 3px;
+    color: rgb(81, 81, 81);
+}
+.bot a{
+    
+    color: rgb(196, 196, 196);
+}
+.bot a:hover{
+    
+     color: rgb(196, 196, 196);
+    
+}
+.bot ul{
+    text-align: left;
+    margin-left: 80px;
+}
+.bot1{
+    height: 92px;
+    width: 100%;
+    background: rgb(32, 32, 32);
+    color: #fff;
+    font-size: 16px;
+    font-family: opensans !important;
+    text-align:center;
+    
+}
+.bot1 p{
+    margin-top: 113px;
+    padding-top: 40px;
+}
+.hr2{ 
+    color: rgb(32, 32, 32);
+    width: 1200px;
+    z-index: 1;
+    background-color:  rgb(32, 32, 32);
+}
+.cub{
+    width: 25px;
+    height: 25px;
+    transform: rotate(45deg);
+    border: 1px solid #fff;
+    margin-left: 50%;
+    margin-top: -32px;
+    z-index:2;
+    background: rgb(38, 38, 38);
+}
+.cub .sageata{
+    transform: rotate(314deg) !important;
+    padding-left: 2px;
+    color: #dc2929;
+}
+.imagi{
+    padding-top:10px;
+}
