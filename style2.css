@@ -21,7 +21,6 @@ body{
 .meniu{
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
-    left: 13px;
     top: 0;
     width: 100%;
     height: 110px;
@@ -35,7 +34,6 @@ body{
     line-height: 0.706;
     text-align: Left;
     position: relative;
-    left: 37%;
     top: 34px;
     z-index: 360;
     float: left;
@@ -48,23 +46,20 @@ body{
     line-height: 2;
     text-align: Left;
     position: absolute;
-    left: 37%;
-    top: 63px;
-    z-index: 350;
+    padding: 7vh 0vh 0vh 7vh
 
 }
 
 .meniu .img{
-   margin-left: 2%;
-    margin-top: 43px;
+    padding: 4vh 3vh;
     width:auto;
+    float:left;
 }
 
 
 .lista1{
-    margin-top: 45px;
-    margin-bottom: 10px;
-    margin-left: 506px;
+    margin-top: 5vh;
+    float:right;
 }
 ul{
     list-style-type: none;
