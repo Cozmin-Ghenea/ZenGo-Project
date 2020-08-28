@@ -690,12 +690,15 @@ font-size: 1.6rem;
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (max-width: 600px) {
+
+    /* HEADER AREA  */
     #header{
         height:auto;
         background-size: auto
     }
 
     /* MIDDLE AREA WHERE THE ZNEGO AND EVERTHING IS */
+
     .mijloc{
         width:auto;
         padding-top:15rem;
@@ -714,6 +717,7 @@ font-size: 1.6rem;
         font-size: 1.9rem;
     }
     /* END OF THE MIDDLE AREA OF THE HEADER */
+
     .text{
         padding: 9vh 0vh 0vh 10vh;
         font-size:1rem;
@@ -751,7 +755,25 @@ font-size: 1.6rem;
       display: block;
       
     }
+ /* END OF THE HEADER AREA  */
+ #sus {
+    margin-top: 0rem;
+}
+ #bg5 #sus{
+    padding-top: 0rem
+ }
+ 
+ .jos4{
+     margin: 1rem 1rem;
+ }
+ #sus #linie{
+    margin-left: 15rem;
+ }
+ /* BLOG AREA 0 */
 
+
+
+ /* END OF BLOG AREA  */
 }
 
 
