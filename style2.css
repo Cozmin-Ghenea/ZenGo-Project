@@ -692,6 +692,7 @@ font-size: 1.6rem;
 @media only screen and (max-width: 600px) {
     #header{
         height:auto;
+        background-size: auto
     }
 
     /* MIDDLE AREA WHERE THE ZNEGO AND EVERTHING IS */
