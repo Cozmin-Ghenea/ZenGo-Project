@@ -66,7 +66,7 @@ body{
 .lista1{
     padding-right: 3rem;
     margin-top: 5rem;
-    float:right;
+    text-align:right;
     font-size:1.4rem
 }
 ul{
@@ -84,11 +84,7 @@ ul{
     font-weight: 400;
     cursor:default;    
 }
-.lista1 a{
-    display: inline;
-    padding: 0 1rem;
-    float:right;
-}
+
 .mijloc{
    width:60rem;
    margin:0 auto;
@@ -189,8 +185,7 @@ ul{
 }
 .jos{
     text-align: center;
-    margin-top: 155px;
-    margin-bottom: 170px;
+    margin:13rem 0;
 }
 
 .jos h1{
@@ -233,12 +228,12 @@ ul{
     font-family: Lobster !important;
     color: rgb(220, 41, 41);
 }
+
 .hexagon{
     position: relative;
-    width: 100%;
-    padding-bottom: 30px;
-    padding-right: 6px;
-    
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+
 }
 .d1 {
     background-color: #FFF;
@@ -580,11 +575,11 @@ ul{
 /*   Inceputul div-ului de jos */
 #footer{
     width: 100%;
-    height: 500px;
+    height: auto;
 	background-color: rgb(38, 38, 38);
     text-align: left;
     color: rgb(196, 196, 196);
-    padding-top: 47px;
+    padding-top: 2.5rem;
     z-index:-2;
     
 }
@@ -638,7 +633,7 @@ ul{
 }
 .hr2{ 
     color: rgb(32, 32, 32);
-    width: 1200px;
+    width: 80%;
     z-index: 1;
     background-color:  rgb(32, 32, 32);
 }
@@ -759,6 +754,26 @@ font-size: 1.6rem;
  #sus {
     margin-top: 0rem;
 }
+
+/* THE ABOUT US AREA  */
+
+.jos{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+
+.hexagon{
+    padding-left: 1rem
+}
+
+/* END OF THE ABOUT US AREA */
+.winds{
+    padding:3rem 0rem;
+}
+
+ /* BLOG AREA 0 */
+
  #bg5 #sus{
     padding-top: 0rem
  }
@@ -769,11 +784,28 @@ font-size: 1.6rem;
  #sus #linie{
     margin-left: 15rem;
  }
- /* BLOG AREA 0 */
-
-
 
  /* END OF BLOG AREA  */
+ /* FOOTER AREA  */
+
+
+ #footer {
+     height:auto;
+ }
+
+ .hr2{
+     width:auto;
+ }
+
+
+ /* END OF THE FOOTER AREA */
+ 
+
+
+
+
+
+
 }
 
 
