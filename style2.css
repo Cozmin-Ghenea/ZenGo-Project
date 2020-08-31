@@ -7,7 +7,7 @@ img{
     width: 100%;
 }
 body{
-    font-size: 14px;
+    font-size:65%;
     font-family: opensans , sans-serif;
     font-weight: 400;
     margin: 0;
@@ -133,7 +133,7 @@ ul{
 }
 #hr1{
   
-    width: 360px;
+    width: 36rem;
     z-index: 2;
     position: relative;
     margin-bottom: 65px;
@@ -151,7 +151,6 @@ ul{
     margin:0 0;
 }
 #sus{
-    margin-top: 80px;
     text-align: center;
     
 }
@@ -195,8 +194,8 @@ ul{
 }
 .jos h2{
     font-family: Opensans Light !important;
-    font-size: 13px;
-    margin-bottom: 25px;
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
 }
 .jos a{
     text-decoration: none;
@@ -210,7 +209,7 @@ ul{
 }
 #bg3{
     background-color: rgb(30, 38, 49);
-    height: 725px;
+    height: 100vh;
     
 }
 #sus2{
@@ -231,7 +230,7 @@ ul{
 
 .hexagon{
     position: relative;
-    padding-left: 2rem;
+    padding-right: 2rem;
     padding-bottom: 3rem;
 
 }
@@ -243,7 +242,7 @@ ul{
     border-left: 1px solid rgb(229, 229, 229);
     position: absolute;
     bottom: 20px;
-    left: 35%;
+    left: 30%;
     transition: all 2s ease;
 }
  .d2 {
@@ -257,7 +256,7 @@ ul{
     color:red;
     transform: rotate(60deg);
     bottom: 20px;
-    left:35%;
+    left:30%;
     transition:all 2s ease;
     
     
@@ -272,7 +271,7 @@ ul{
     color:red;
     transform: rotate(120deg);
     bottom: 20px;
-    left:35%;
+    left:30%;
     transition: all 2s ease;
    }
 .hexagon:hover .d1{
@@ -351,12 +350,12 @@ ul{
     display: table-cell;
 }
 #bg3 #hr1{
-    margin-bottom: 70px;
+    margin-bottom: 7rem;
 }
 #bg4{
     background-color: #FFF;
     text-align: center;
-    margin-top: 68px;
+    margin-top: 5rem;
 }
 .img-stil1{
     left: 0;
@@ -568,7 +567,7 @@ ul{
 }
 #bg6 p{
     font-family: opensans light !important;
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #FFF;
     
 }
@@ -685,7 +684,9 @@ font-size: 1.6rem;
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (max-width: 600px) {
-
+    .row{
+        margin:0!important;
+    }
     /* HEADER AREA  */
     #header{
         height:auto;
@@ -763,9 +764,6 @@ font-size: 1.6rem;
     margin-bottom: 0;
 }
 
-.hexagon{
-    padding-left: 1rem
-}
 
 /* END OF THE ABOUT US AREA */
 .winds{
@@ -786,6 +784,24 @@ font-size: 1.6rem;
  }
 
  /* END OF BLOG AREA  */
+
+
+
+ /* THE PLACE WHERE THE CAROUSEL SHOULD'VE BEEN */
+ #cerc-alb{
+    margin-left: 43%;
+ }
+
+ #cerc-rosu1 {
+    margin-left: 48%;
+ }
+
+ #cerc-rosu2 {
+    margin-left: 53%;
+ }
+
+ /* THE END OF THE PLACE OF THE COURSEL SHOULD'VE BEEN */
+
  /* FOOTER AREA  */
 
 
@@ -808,20 +824,305 @@ font-size: 1.6rem;
 
 }
 
+@media only screen and (max-width: 2560px) {
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-    
+    /* HEADER AREA */
+    .text2{
+        font-size:6rem;
+    }
+    .zengo1{
+        font-size:9rem;
+    }
+    .text3{
+        font-size:2rem;
+    }
+    .zengo{
+        font-size:5.7rem;
+    }
+    .text{
+        font-size:1.5rem
+
+    }
+    /* END OF THE HEADER AREA */
+    /* THE ABOUT US AREA  */
+
+    .about{
+        font-size:10rem;
+    }
+
+    .text5{
+
+    }
+    .d1{
+        left: 40%;
+    }
+    .d2{
+        left: 40%;
+    }
+    .d3{
+        left: 40%;
+    }
+    .hexagon{
+        padding-right:0
+    }
+    .jos h1{
+        font-size:3.3rem;
+    }
+    .jos h2{
+        font-size:2.7rem;
+    }
+    .jos a{
+        font-size:2.2rem;
+    }
+
+
+    /* END OF THE ABOUT US AREA */
+
+    /* OUR TEAM SECTION */
+
+    #bg4 h3{
+        font-size:3.2rem;
+    }
+    #bg4 h4{
+        font-size:2.2rem;
+    }
+    /* END OF OUR TEAM ::selection */
+
+    /* THE PLACE WHERE THE CAROUSEL SHOULD'VE BEEN */
+    .desc h1{
+        font-size:6rem
+    }
+
+    .desc1{
+        font-size:2.5rem
+    }
+
+    /* THE END OF THE COURSEL AREA  */
+    /* BLOG AREA  */
+    .us{
+        font-size:10rem;
+    }
+    .text4{
+        font-size:2.5rem;
+    }
+    .jos4 h1{
+        font-size: 2.3rem;
+        font-weight: 600;
+    }
+    .jos4 p{
+        font-size: 1.8rem;
+    }
+
+    .read{
+        width: 13.5rem;
+        height: 5rem;
+        font-size: 2.3rem
+    }
+    /* END OF BLOG AREA  */
+
+
+    /* ASK AREA  */
+    .ask{
+        font-size:5.5rem;
+    }
+    #bg6 h1{
+        font-size:5.5rem;
+    }
+    #bg6 p{
+        font-size:2rem;
+    }
+
+    /* END OF ASK AREA */
+    /* OUR PROJECT ARE */
+    .project{
+        font-size:1.8rem
+    }
+    .description{
+        font-size:1.5rem
+    }
+    .site{
+        font-size:1.4rem;
+    }
+
+    /* END OF OUR PROJECCT AREA  */
+
+    /* FOOTER AREA */
+
+    .bot h2{
+        font-size: 2.6rem;
+    }
+
+    .bot a{
+        font-size:1.6rem;
+    }
+    .bot1 p {
+        font-size:2rem
+    }
+    /* END OF FOOTER AREA */
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
-    
+
+@media only screen and (max-width: 1500px) {
+
+    /* HEADER AREA */
+    .topnav a{
+        font-size:1.4rem
+    }
+    .text2{
+        font-size:6rem;
+    }
+    .zengo1{
+        font-size:9rem;
+    }
+    .text3{
+        font-size:2rem;
+    }
+    .zengo{
+        font-size:3.7rem;
+    }
+    .text{
+        font-size:1.5rem
+
+    }
+    /* END OF THE HEADER AREA */
+    /* THE ABOUT US AREA  */
+
+    .about{
+        font-size:10rem;
+    }
+
+    .text5{
+
+    }
+    .d1{
+        left: 40%;
+    }
+    .d2{
+        left: 40%;
+    }
+    .d3{
+        left: 40%;
+    }
+    .hexagon{
+        padding-right:0
+    }
+    .jos h1{
+        font-size:3.3rem;
+    }
+    .jos h2{
+        font-size:2.7rem;
+    }
+    .jos a{
+        font-size:2.2rem;
+    }
+
+
+    /* END OF THE ABOUT US AREA */
+
+    /* OUR TEAM SECTION */
+
+    #bg4 h3{
+        font-size:3.2rem;
+    }
+    #bg4 h4{
+        font-size:2.2rem;
+    }
+    /* END OF OUR TEAM ::selection */
+
+    /* THE PLACE WHERE THE CAROUSEL SHOULD'VE BEEN */
+    .desc h1{
+        font-size:6rem
+    }
+
+    .desc1{
+        font-size:2.5rem
+    }
+
+    /* THE END OF THE COURSEL AREA  */
+    /* BLOG AREA  */
+    .us{
+        font-size:10rem;
+    }
+    .text4{
+        font-size:2.5rem;
+    }
+    .jos4 h1{
+        font-size: 2.3rem;
+        font-weight: 600;
+    }
+    .jos4 p{
+        font-size: 1.8rem;
+    }
+
+    .read{
+        width: 13.5rem;
+        height: 5rem;
+        font-size: 2.3rem
+    }
+    /* END OF BLOG AREA  */
+
+
+    /* ASK AREA  */
+    .ask{
+        font-size:5.5rem;
+    }
+    #bg6 h1{
+        font-size:5.5rem;
+    }
+    #bg6 p{
+        font-size:2rem;
+    }
+
+    /* END OF ASK AREA */
+    /* OUR PROJECT ARE */
+    .project{
+        font-size:1.8rem
+    }
+    .description{
+        font-size:1.5rem
+    }
+    .site{
+        font-size:1.4rem;
+    }
+
+    /* END OF OUR PROJECCT AREA  */
+
+    /* FOOTER AREA */
+
+    .bot h2{
+        font-size: 2.6rem;
+    }
+
+    .bot a{
+        font-size:1.6rem;
+    }
+    .bot1 p {
+        font-size:2rem
+    }
+    /* END OF FOOTER AREA */
+
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) {
 
 }
-   
+  
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    
+}
+
+
+
+
+
 /* This part is for TEsting propurse only  */
