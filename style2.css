@@ -474,7 +474,7 @@ ul{
 .jos4 h1{
     font-family: opensans !important;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 600;
     color : rgb(64, 68, 71);
     text-align: left;
 }
@@ -526,7 +526,7 @@ ul{
     margin-bottom: 70px;
     margin-left: 5px;
     margin-top: 5px;
-    transition: background 1s;
+    transition:  1s;
 }
 .data h1{
     font-size:24px;
@@ -687,6 +687,9 @@ font-size: 1.6rem;
     .row{
         margin:0!important;
     }
+    body{
+        width:97%
+    }
     /* HEADER AREA  */
     #header{
         height:auto;
@@ -701,7 +704,7 @@ font-size: 1.6rem;
         padding-bottom:10rem;
     }
     .scroll{
-        margin-left:11rem
+        margin-left: 12rem
     }
     .zengo1{
         font-size:5rem
@@ -710,7 +713,7 @@ font-size: 1.6rem;
         font-size: 2.5rem;
     }
     .text3{
-        font-size: 1.9rem;
+        font-size: 1.5rem;
     }
     /* END OF THE MIDDLE AREA OF THE HEADER */
 
@@ -756,20 +759,46 @@ font-size: 1.6rem;
     margin-top: 0rem;
 }
 
-/* THE ABOUT US AREA  */
 
+
+ /* THE OUR PORTOFOLIO AREA */
+.our{
+    font-size:6.5rem;
+}
+.portofolio{
+    font-size:6.5rem;
+}
+#bg3{
+    height:70vh
+}
+
+ /* THE END OF OUR PORTOFOLIO AREA */
+/* THE ABOUT US AREA  */
+.about{
+    font-size:6rem
+}
+.us{
+    font-size:6rem
+}
+.text4{
+    font-size:1.5rem;
+}
 .jos{
     text-align: center;
     margin-top: 5rem;
     margin-bottom: 0;
 }
-
+    .text5{
+        font-size:1.5rem;
+    }
 
 /* END OF THE ABOUT US AREA */
 .winds{
     padding:3rem 0rem;
 }
-
+.hexagon{
+    padding-right:1rem;
+}
  /* BLOG AREA 0 */
 
  #bg5 #sus{
@@ -784,7 +813,6 @@ font-size: 1.6rem;
  }
 
  /* END OF BLOG AREA  */
-
 
 
  /* THE PLACE WHERE THE CAROUSEL SHOULD'VE BEEN */
@@ -802,6 +830,16 @@ font-size: 1.6rem;
 
  /* THE END OF THE PLACE OF THE COURSEL SHOULD'VE BEEN */
 
+ #bg6 h1{
+     font-size:1.5rem
+ }
+
+/* ASK AREA */
+#bg6{
+    padding-top:3rem;
+}
+/* END OF ASK AREA */
+
  /* FOOTER AREA  */
 
 
@@ -813,316 +851,651 @@ font-size: 1.6rem;
      width:auto;
  }
 
-
+ .bot h2{
+     font-size:1.4rem;
+ }
+ .bot hr{
+     width:7rem
+ }
+ .linie2{
+     width:5rem;
+     margin-top: 1px;
+     border: 2px solid #dc2929;
+ }
+ .cub{
+     margin-left:45%;
+ }
  /* END OF THE FOOTER AREA */
- 
-
-
-
-
 
 
 }
 
-@media only screen and (max-width: 2560px) {
 
-    /* HEADER AREA */
-    .text2{
-        font-size:6rem;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    
+    .row{
+        margin:0!important;
     }
-    .zengo1{
-        font-size:9rem;
+    /* HEADER AREA  */
+    .meniu {
+        position: inherit;
     }
-    .text3{
-        font-size:2rem;
+    #header{
+        height:100vh;
+        background-size: auto
+    }
+
+    /* MIDDLE AREA WHERE THE ZNEGO AND EVERTHING IS */
+
+     /* HEADER AREA */
+     .topnav a{
+        font-size: 1.2rem;
+        padding: 0.7rem
     }
     .zengo{
-        font-size:5.7rem;
-    }
-    .text{
-        font-size:1.5rem
-
-    }
-    /* END OF THE HEADER AREA */
-    /* THE ABOUT US AREA  */
-
-    .about{
-        font-size:10rem;
-    }
-
-    .text5{
-
-    }
-    .d1{
-        left: 40%;
-    }
-    .d2{
-        left: 40%;
-    }
-    .d3{
-        left: 40%;
-    }
-    .hexagon{
-        padding-right:0
-    }
-    .jos h1{
-        font-size:3.3rem;
-    }
-    .jos h2{
-        font-size:2.7rem;
-    }
-    .jos a{
-        font-size:2.2rem;
-    }
-
-
-    /* END OF THE ABOUT US AREA */
-
-    /* OUR TEAM SECTION */
-
-    #bg4 h3{
-        font-size:3.2rem;
-    }
-    #bg4 h4{
-        font-size:2.2rem;
-    }
-    /* END OF OUR TEAM ::selection */
-
-    /* THE PLACE WHERE THE CAROUSEL SHOULD'VE BEEN */
-    .desc h1{
-        font-size:6rem
-    }
-
-    .desc1{
-        font-size:2.5rem
-    }
-
-    /* THE END OF THE COURSEL AREA  */
-    /* BLOG AREA  */
-    .us{
-        font-size:10rem;
-    }
-    .text4{
-        font-size:2.5rem;
-    }
-    .jos4 h1{
-        font-size: 2.3rem;
-        font-weight: 600;
-    }
-    .jos4 p{
-        font-size: 1.8rem;
-    }
-
-    .read{
-        width: 13.5rem;
-        height: 5rem;
-        font-size: 2.3rem
-    }
-    /* END OF BLOG AREA  */
-
-
-    /* ASK AREA  */
-    .ask{
-        font-size:5.5rem;
-    }
-    #bg6 h1{
-        font-size:5.5rem;
-    }
-    #bg6 p{
-        font-size:2rem;
-    }
-
-    /* END OF ASK AREA */
-    /* OUR PROJECT ARE */
-    .project{
-        font-size:1.8rem
-    }
-    .description{
-        font-size:1.5rem
-    }
-    .site{
-        font-size:1.4rem;
-    }
-
-    /* END OF OUR PROJECCT AREA  */
-
-    /* FOOTER AREA */
-
-    .bot h2{
-        font-size: 2.6rem;
-    }
-
-    .bot a{
-        font-size:1.6rem;
-    }
-    .bot1 p {
-        font-size:2rem
-    }
-    /* END OF FOOTER AREA */
-}
-
-
-@media only screen and (max-width: 1500px) {
-
-    /* HEADER AREA */
-    .topnav a{
-        font-size:1.4rem
+        top:2.5rem;
     }
     .text2{
-        font-size:6rem;
-    }
-    .zengo1{
-        font-size:9rem;
-    }
-    .text3{
-        font-size:2rem;
-    }
-    .zengo{
-        font-size:3.7rem;
-    }
-    .text{
-        font-size:1.5rem
-
-    }
-    /* END OF THE HEADER AREA */
-    /* THE ABOUT US AREA  */
-
-    .about{
-        font-size:10rem;
-    }
-
-    .text5{
-
-    }
-    .d1{
-        left: 40%;
-    }
-    .d2{
-        left: 40%;
-    }
-    .d3{
-        left: 40%;
-    }
-    .hexagon{
-        padding-right:0
-    }
-    .jos h1{
-        font-size:3.3rem;
-    }
-    .jos h2{
-        font-size:2.7rem;
-    }
-    .jos a{
-        font-size:2.2rem;
-    }
-
-
-    /* END OF THE ABOUT US AREA */
-
-    /* OUR TEAM SECTION */
-
-    #bg4 h3{
-        font-size:3.2rem;
-    }
-    #bg4 h4{
-        font-size:2.2rem;
-    }
-    /* END OF OUR TEAM ::selection */
-
-    /* THE PLACE WHERE THE CAROUSEL SHOULD'VE BEEN */
-    .desc h1{
-        font-size:6rem
-    }
-
-    .desc1{
         font-size:2.5rem
     }
-
-    /* THE END OF THE COURSEL AREA  */
-    /* BLOG AREA  */
-    .us{
-        font-size:10rem;
+    .zengo1{
+        font-size:6rem
     }
-    .text4{
-        font-size:2.5rem;
-    }
-    .jos4 h1{
-        font-size: 2.3rem;
-        font-weight: 600;
-    }
-    .jos4 p{
-        font-size: 1.8rem;
-    }
-
-    .read{
-        width: 13.5rem;
-        height: 5rem;
-        font-size: 2.3rem
-    }
-    /* END OF BLOG AREA  */
-
-
-    /* ASK AREA  */
-    .ask{
-        font-size:5.5rem;
-    }
-    #bg6 h1{
-        font-size:5.5rem;
-    }
-    #bg6 p{
-        font-size:2rem;
-    }
-
-    /* END OF ASK AREA */
-    /* OUR PROJECT ARE */
-    .project{
-        font-size:1.8rem
-    }
-    .description{
+    .text3{
         font-size:1.5rem
     }
-    .site{
-        font-size:1.4rem;
+    .mijloc{
+        padding-top:30rem;
     }
-
-    /* END OF OUR PROJECCT AREA  */
-
-    /* FOOTER AREA */
-
-    .bot h2{
-        font-size: 2.6rem;
-    }
-
-    .bot a{
-        font-size:1.6rem;
-    }
-    .bot1 p {
-        font-size:2rem
-    }
-    /* END OF FOOTER AREA */
-
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (max-width: 1200px) {
-
-}
+    /* END OF THE HEADER AREA */
   
 
 
+    /* THE ABOUT US AREA  */
+    .about{
+        font-size:6rem;
+    }
+    .us{
+        font-size:6rem;
+    }
+    .text4{
+        font-size:1.8rem;
+    }
+    .text5{
+        font-size:2rem;
+    }
+
+    .winds{
+        padding:3rem 0rem;
+    }
+    .d1{
+        left: 41%;
+    }
+    .d2{
+        left: 41%;
+    }
+    .d3{
+        left: 41%;
+    }
+    .hexagon{
+      padding-left:2rem
+    }
+    /* END OF THE ABOUT US AREA */
+
+    /* OUR TEAM SECTION */
+    .img-stil img{
+        width:80%;
+    }
+
+    /* END OF OUR TEAM ::selection */
+
+    /* THE PLACE WHERE THE CAROUSEL SHOULD'VE BEEN */
+    /* THE END OF THE COURSEL AREA  */
+    /* BLOG AREA  */
+
+    .jos4 h1{
+        font-size:1.32rem
+    }
+    .jos4 p{font-size:1.4rem}
+    /* END OF BLOG AREA  */
+
+
+    /* ASK AREA  */
+    #bg6 h1{
+        font-size:4rem
+    }
+    #bg6 p{
+        font-size:1.4rem;
+    }
+    /* END OF ASK AREA */
+    /* OUR PROJECT ARE */
+        .our{
+            font-size:6rem
+        }
+        .portofolio{
+            font-size:6rem;
+        }
+        #bg3{
+            height:80vh
+        }
+        .bot ul{
+            text-align:center;
+            margin-left:0;
+        }
+    /* END OF OUR PROJECCT AREA  */
+
+    /* FOOTER AREA */
+    .linie2{
+        margin-left:36rem;
+    }
+    .bot h2{
+        font-size:1.4rem;
+        margin-left:3.5rem;
+    }
+    .bot1{
+        font-size:1.4rem;
+    }
+    .bot hr{
+        margin-left: 35rem
+    }
+    /* END OF FOOTER AREA */
+
+
+
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width:769px) and (max-width: 992px) {
+      /* HEADER AREA */
+      .topnav a{
+        font-size:1.4rem;
+        padding:1rem;
+    }
+    .zengo{
+        top:2.5rem;
+    }
+    .text2{
+        font-size:2.5rem
+    }
+    .zengo1{
+        font-size:6rem
+    }
+    .text3{
+        font-size:1.5rem
+    }
+    .mijloc{
+        padding-top:30rem;
+    }
+    /* END OF THE HEADER AREA */
+  
+
+
+    /* THE ABOUT US AREA  */
+    .about{
+        font-size:6rem;
+    }
+    .us{
+        font-size:6rem;
+    }
+    .text4{
+        font-size:1.8rem;
+    }
+    .text5{
+        font-size:2rem;
+    }
+
+    .winds{
+        padding:3rem 0rem;
+    }
+    .d1{
+        left: 43%;
+    }
+    .d2{
+        left: 43%;
+    }
+    .d3{
+        left: 43%;
+    }
+    .hexagon{
+      padding-left:2rem
+    }
+    /* END OF THE ABOUT US AREA */
+
+    /* OUR TEAM SECTION */
+    .img-stil img{
+        width:80%;
+    }
+
+    /* END OF OUR TEAM ::selection */
+
+    /* THE PLACE WHERE THE CAROUSEL SHOULD'VE BEEN */
+    /* THE END OF THE COURSEL AREA  */
+    /* BLOG AREA  */
+
+    .jos4 h1{
+        font-size:1.32rem
+    }
+    .jos4 p{font-size:1.4rem}
+    /* END OF BLOG AREA  */
+
+
+    /* ASK AREA  */
+    #bg6 h1{
+        font-size:4rem
+    }
+    #bg6 p{
+        font-size:1.4rem;
+    }
+    /* END OF ASK AREA */
+    /* OUR PROJECT ARE */
+        .our{
+            font-size:6rem
+        }
+        .portofolio{
+            font-size:6rem;
+        }
+        #bg3{
+            height:80vh
+        }
+        .bot ul{
+            text-align:center;
+            margin-left:0;
+        }
+    /* END OF OUR PROJECCT AREA  */
+
+    /* FOOTER AREA */
+    .linie2{
+        margin-left:42rem;
+    }
+    .bot h2{
+        font-size:1.4rem;
+        margin-left:3.5rem;
+    }
+    .bot1{
+        font-size:1.4rem;
+    }
+    .bot hr{
+        margin-left: 41rem
+    }
+    /* END OF FOOTER AREA */
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    /* HEADER AREA */
+
     
+    .topnav a{
+        font-size:1.4rem
+    }
+    .zengo{
+        top:2.5rem;
+    }
+    .text2{
+        font-size:2.5rem
+    }
+    .zengo1{
+        font-size:6rem
+    }
+    .text3{
+        font-size:1.5rem
+    }
+    .mijloc{
+        padding-top:30rem;
+    }
+    /* END OF THE HEADER AREA */
+    /* THE ABOUT US AREA  */
+    .about{
+        font-size:6rem;
+    }
+    .us{
+        font-size:6rem;
+    }
+    .text4{
+        font-size:1.8rem;
+    }
+    .text5{
+        font-size:2rem;
+    }
+
+     
+    .d1{
+        left: 25%;
+    }
+    .d2{
+        left: 25%;
+    }
+    .d3{
+        left: 25%;
+    }
+    .hexagon{
+      padding-left:2rem
+    }
+    /* END OF THE ABOUT US AREA */
+
+    /* OUR TEAM SECTION */
+    /* END OF OUR TEAM ::selection */
+
+    /* THE PLACE WHERE THE CAROUSEL SHOULD'VE BEEN */
+    /* THE END OF THE COURSEL AREA  */
+    /* BLOG AREA  */
+
+    .jos4 h1{
+        font-size:1.32rem
+    }
+    .jos4 p{font-size:1.4rem}
+    /* END OF BLOG AREA  */
+
+
+    /* ASK AREA  */
+    #bg6 h1{
+        font-size:4rem
+    }
+    #bg6 p{
+        font-size:1.4rem;
+    }
+    /* END OF ASK AREA */
+    /* OUR PROJECT ARE */
+        .our{
+            font-size:6rem
+        }
+        .portofolio{
+            font-size:6rem;
+        }
+        #bg3{
+            height:80vh
+        }
+    /* END OF OUR PROJECCT AREA  */
+
+    /* FOOTER AREA */
+    .bot h2{
+        font-size:1.4rem;
+    }
+    .bot1{
+        font-size:1.4rem;
+    }
+    /* END OF FOOTER AREA */
+
+}
+   
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+ /* HEADER AREA */
+ .topnav a {
+     font-size:1.4rem
+ }
+ .text2{
+    font-size:4rem;
+}
+.zengo1{
+    font-size:7rem;
+}
+.text3{
+    font-size:1.8rem;
+}
+.zengo{
+    font-size:3.5rem;
+}
+.text{
+    font-size:1.2rem
+
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-    
+/* END OF THE HEADER AREA */
+/* THE ABOUT US AREA  */
+
+.about{
+    font-size:8rem;
+}
+
+.text5{
+    font-size:2rem;
+}
+
+.jos h1{
+    font-size:2.8rem;
+}
+.jos h2{
+    font-size:1.8rem;
+}
+.jos a{
+    font-size:1.5rem;
 }
 
 
+/* END OF THE ABOUT US AREA */
 
+/* OUR TEAM SECTION */
+
+#bg4 h3{
+    font-size:2.2rem;
+}
+#bg4 h4{
+    font-size:1.2rem;
+}
+
+
+/* END OF OUR TEAM ::selection */
+
+/* THE PLACE WHERE THE CAROUSEL SHOULD'VE BEEN */
+.desc h1{
+    font-size:5rem
+}
+
+.desc1{
+    font-size:2rem
+}
+
+/* THE END OF THE COURSEL AREA  */
+/* BLOG AREA  */
+.us{
+    font-size:8rem;
+}
+.text4{
+    font-size:2.1rem;
+}
+.jos4 h1{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.jos4 p{
+    font-size: 1.5rem;
+}
+
+.read{
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.7rem
+}
+
+
+/* END OF BLOG AREA  */
+
+
+/* ASK AREA  */
+.ask{
+    font-size:4.5rem;
+}
+#bg6 h1{
+    font-size:4.5rem;
+}
+#bg6 p{
+    font-size:1.8rem;
+}
+
+/* END OF ASK AREA */
+/* OUR PROJECT ARE */
+.project{
+    font-size:1.5rem
+}
+.description{
+    font-size:1.2rem
+}
+.site{
+    font-size:1.1rem;
+}
+
+/* END OF OUR PROJECCT AREA  */
+
+/* FOOTER AREA */
+
+.bot h2{
+    font-size: 2rem;
+}
+
+.bot a{
+    font-size:1.3rem;
+}
+.bot1 p {
+    font-size:1.5rem
+}
+
+/* END OF FOOTER AREA */
+}
+
+@media only screen and (min-width: 1501px) and (max-width: 2560px) {
+
+    /* HEADER AREA */
+    .text2{
+        font-size:4rem;
+    }
+    .zengo1{
+        font-size:7rem;
+    }
+    .text3{
+        font-size:1.8rem;
+    }
+    .zengo{
+        font-size:4.3rem;
+    }
+    .text{
+        font-size:1.5rem
+
+    }
+    
+    /* END OF THE HEADER AREA */
+    /* THE ABOUT US AREA  */
+
+    .about{
+        font-size:8rem;
+    }
+
+    .text5{
+        font-size:2rem;
+    }
+    
+    .d1{
+        left: 40%;
+    }
+    .d2{
+        left: 40%;
+    }
+    .d3{
+        left: 40%;
+    }
+    .hexagon{
+        padding-left:4rem
+    }
+    .jos h1{
+        font-size:3rem;
+    }
+    .jos h2{
+        font-size:2.1rem;
+    }
+    .jos a{
+        font-size:1.7rem;
+    }
+
+
+    /* END OF THE ABOUT US AREA */
+
+    /* OUR TEAM SECTION */
+
+    #bg4 h3{
+        font-size:2.2rem;
+    }
+    #bg4 h4{
+        font-size:1.2rem;
+    }
+
+    
+    /* END OF OUR TEAM ::selection */
+
+    /* THE PLACE WHERE THE CAROUSEL SHOULD'VE BEEN */
+    .desc h1{
+        font-size:5rem
+    }
+
+    .desc1{
+        font-size:2rem
+    }
+
+    /* THE END OF THE COURSEL AREA  */
+    /* BLOG AREA  */
+    .us{
+        font-size:8rem;
+    }
+    .text4{
+        font-size:2.1rem;
+    }
+    .jos4 h1{
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    .jos4 p{
+        font-size: 1.5rem;
+    }
+
+    .read{
+        width: 10rem;
+        height: 4rem;
+        font-size: 1.7rem
+    }
+
+    
+    /* END OF BLOG AREA  */
+
+
+    /* ASK AREA  */
+    .ask{
+        font-size:4.5rem;
+    }
+    #bg6 h1{
+        font-size:4.5rem;
+    }
+    #bg6 p{
+        font-size:1.8rem;
+    }
+
+    /* END OF ASK AREA */
+    /* OUR PROJECT ARE */
+    .project{
+        font-size:1.5rem
+    }
+    .description{
+        font-size:1.2rem
+    }
+    .site{
+        font-size:1.1rem;
+    }
+
+    /* END OF OUR PROJECCT AREA  */
+
+    /* FOOTER AREA */
+
+    .bot h2{
+        font-size: 2rem;
+    }
+
+    .bot a{
+        font-size:1.3rem;
+    }
+    .bot1 p {
+        font-size:1.5rem
+    }
+    
+    /* END OF FOOTER AREA */
+}
 
 
 /* This part is for TEsting propurse only  */
