@@ -1353,7 +1353,151 @@ font-size: 1.6rem;
 /* END OF FOOTER AREA */
 }
 
-@media only screen and (min-width: 1501px) and (max-width: 2560px) {
+@media only screen and (min-width: 1501px) and (max-width: 1920px) {
+
+    /* HEADER AREA */
+    .text2{
+        font-size:4rem;
+    }
+    .zengo1{
+        font-size:7rem;
+    }
+    .text3{
+        font-size:1.8rem;
+    }
+    .zengo{
+        font-size:4.3rem;
+    }
+    .text{
+        font-size:1.5rem
+
+    }
+    
+    /* END OF THE HEADER AREA */
+    /* THE ABOUT US AREA  */
+
+    .about{
+        font-size:8rem;
+    }
+
+    .text5{
+        font-size:2rem;
+    }
+    
+    .d1{
+        left: 40%;
+    }
+    .d2{
+        left: 40%;
+    }
+    .d3{
+        left: 40%;
+    }
+    .hexagon{
+        padding-left:4rem
+    }
+    .jos h1{
+        font-size:3rem;
+    }
+    .jos h2{
+        font-size:2.1rem;
+    }
+    .jos a{
+        font-size:1.7rem;
+    }
+
+
+    /* END OF THE ABOUT US AREA */
+
+    /* OUR TEAM SECTION */
+
+    #bg4 h3{
+        font-size:2.2rem;
+    }
+    #bg4 h4{
+        font-size:1.2rem;
+    }
+
+    
+    /* END OF OUR TEAM ::selection */
+
+    /* THE PLACE WHERE THE CAROUSEL SHOULD'VE BEEN */
+    .desc h1{
+        font-size:5rem
+    }
+
+    .desc1{
+        font-size:2rem
+    }
+
+    /* THE END OF THE COURSEL AREA  */
+    /* BLOG AREA  */
+    .us{
+        font-size:8rem;
+    }
+    .text4{
+        font-size:2.1rem;
+    }
+    .jos4 h1{
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    .jos4 p{
+        font-size: 1.5rem;
+    }
+
+    .read{
+        width: 10rem;
+        height: 4rem;
+        font-size: 1.7rem
+    }
+
+    
+    /* END OF BLOG AREA  */
+
+
+    /* ASK AREA  */
+    .ask{
+        font-size:4.5rem;
+    }
+    #bg6 h1{
+        font-size:4.5rem;
+    }
+    #bg6 p{
+        font-size:1.8rem;
+    }
+
+    /* END OF ASK AREA */
+    /* OUR PROJECT ARE */
+    .project{
+        font-size:1.5rem
+    }
+    .description{
+        font-size:1.2rem
+    }
+    .site{
+        font-size:1.1rem;
+    }
+
+    /* END OF OUR PROJECCT AREA  */
+
+    /* FOOTER AREA */
+
+    .bot h2{
+        font-size: 2rem;
+    }
+
+    .bot a{
+        font-size:1.3rem;
+    }
+    .bot1 p {
+        font-size:1.5rem
+    }
+    
+    /* END OF FOOTER AREA */
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 2560px) {
 
     /* HEADER AREA */
     .text2{
